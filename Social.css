@@ -1,0 +1,204 @@
+body{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.container{
+    display:flex;
+    height:100vh;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.top{
+    transform: translate(80px, 20px);
+}
+.top h1{
+    font-size:3rem;
+    width:40%;
+    color:hsl(300, 43%, 22%);
+}
+.top p{
+    transform: translateY(10px);
+    font-size:1.1rem;
+    width:50%;
+    line-height:25px;
+    color:hsl(303, 10%, 53%);
+}
+
+.stars{
+        transform: translate(-100px, 70px);
+        height:100px;
+        padding:10px;
+        
+}
+
+.star1{
+         transform: translatex(-100px);
+         background-color: hsla(333, 80%, 67%, 0.104);
+         padding:20px;
+         padding-right:100px;
+         border-radius: 10px;
+}
+
+.star1 span{
+    transform: translateX(20px);
+    display: inline-block;
+    color:hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+
+.star2{
+    transform: translate(-50px, 30px);
+    background-color: hsla(333, 80%, 67%, 0.104);
+    padding:20px;
+    padding-right:100px;
+    border-radius: 10px;
+}
+
+.star2 span{
+    transform: translateX(20px);
+    display: inline-block;
+    color:hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+
+.star3{
+    transform: translate(20px, 60px);
+    background-color: hsla(333, 80%, 67%, 0.104);
+    padding:20px;
+    padding-right:100px;
+    border-radius: 10px;
+}
+
+.star3 span{
+    transform: translateX(20px);
+    display: inline-block;
+    color:hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+
+.box1{
+    transform: translate(-830px, 100px);
+    background-color: hsl(300, 43%, 22%);
+    width:300px;
+    height:200px;
+    padding:40px;
+    border-radius:10px;
+}
+
+.box1 img{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+}
+
+.box1 p{
+    width:100%;
+    color:hsl(0, 0%, 100%);
+    transform: translateY(-40px);
+    font-size: 1.2rem;
+}
+
+.profile1{
+    display:flex;
+    justify-content: center;
+} 
+
+.profile1 span{
+    transform: translateY(-45px);
+    color:white;
+    font-weight: 700;
+}
+
+.profile1 h5{
+    display: flex;
+    transform: translate(-83px, -50px);
+    color:hsl(333, 80%, 67%);
+    font-weight: 500;
+}
+
+.box2{
+    transform: translate(-400px, -160px);
+    background-color: hsl(300, 43%, 22%);
+    width:300px;
+    height:200px;
+    padding:40px;
+    border-radius:10px;
+}
+
+.box2 img{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+}
+
+.box2 p{
+    width:100%;
+    color:hsl(0, 0%, 100%);
+    transform: translateY(-40px);
+    font-size: 1.2rem;
+}
+
+.profile2{
+    display:flex;
+    justify-content: center;
+} 
+
+.profile2 span{
+    transform: translateY(-45px);
+    color:white;
+    font-weight: 700;
+}
+
+.profile2 h5{
+    display: flex;
+    transform: translate(-88px, -48px);
+    color:hsl(333, 80%, 67%);
+    font-weight: 500;
+}
+
+.box3{
+    transform: translate(33px, -420px);
+    background-color: hsl(300, 43%, 22%);
+    width:300px;
+    height:200px;
+    padding:40px;
+    border-radius:10px;
+}
+
+.box3 img{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+}
+
+.box3 p{
+    width:100%;
+    color:hsl(0, 0%, 100%);
+    transform: translateY(-40px);
+    font-size: 1.2rem;
+}
+
+.profile3{
+    display:flex;
+    justify-content: center;
+} 
+
+.profile3 span{
+    transform: translateY(-45px);
+    color:white;
+    font-weight: 700;
+}
+
+.profile3 h5{
+    display: flex;
+    transform: translate(-88px, -48px);
+    color:hsl(333, 80%, 67%);
+    font-weight: 500;
+}
+
+
